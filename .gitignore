@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Firebase configuration and environment variables
+.env
+firebase.js
+
+# Build output
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional npm cache directory
+.npm/
+
+# Lockfiles
+package-lock.json
+yarn.lock
+
+# Testing
+coverage/
+jest/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.bak
+
+# SASS/CSS cache
+.sass-cache/
+.parcel-cache/
+
+# Ignore bundler and transpiler files
+*.bundle.js
+*.min.js
+*.map
+
+# Optional IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Ignore local Git files
+.git/
